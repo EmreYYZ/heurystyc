@@ -3,15 +3,17 @@ body {
     font-weight: 400;
     /* font-weight: 500; */
     font-style: normal;
+    color: white;
     margin: auto;
     margin-top: 40px;
-    width: 50%;
+    width: 400px;
+    background-color: black;
 }
 
 h1 {
     font-weight: 900;
     font-style: normal;
-    color: orangered;
+    color: white;
 }
 
 li {
@@ -19,9 +21,24 @@ li {
 }
 
 a {
-    color: orangered;
+    color: cyan;
+    font-style: bold;
 }
 
 .bold {
     font-weight: 700;
+}
+
+sup {
+    font-style: italic;
+    color: cyan;
+}
+
+.footer {
+    text-align: justify;
+}
+
+.version {
+    font-weight: 400;
+    font-size: 14px;
 }
